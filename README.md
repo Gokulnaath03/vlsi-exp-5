@@ -79,4 +79,9 @@ endmodule
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-5/assets/167178811/d31de15f-0123-4535-b2cc-7b5ed99e38fc)
 
+#RESULT:
+
+The simulate and synthesis of finite state machine using VIVADO is successfully
+verified.
+
 
