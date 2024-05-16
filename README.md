@@ -1,16 +1,16 @@
 # vlsi-exp-5
+ 
+# SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE:
 
-#SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE:
-
-#AIM:
+## AIM:
 
 To simulate and synthesis finite state machine using Xilinx ISE
 
-#APPARATUS REQUIRED: 
+## APPARATUS REQUIRED: 
 
 VIVADO 2023.2
 
-#PROCEDURE:
+## PROCEDURE:
 
 STEP:1 Start the Xilinx navigator, Select and Name the New project.
 STEP:2 Select the device family, device, package and speed.
@@ -36,12 +36,12 @@ STEP:11 On the board, by giving required input, the LEDs starts to glow light,
 indicating the output.
 STEP:12 Load the Bit file into the SPARTAN 6 FPGA
 
-#LOGIC DIAGRAM:
+## LOGIC DIAGRAM:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-5/assets/167178811/b7e67a7b-fa02-4915-9ffe-64b08d251776)
 
 
-#VERILOG CODE:
+## VERILOG CODE:
 
 module fsm(clk,rst,x,z);
 input clk,rst,x;
@@ -75,11 +75,11 @@ ps=ns;
 assign z=(ps==s3);
 endmodule
 
-#OUTPUT:
+## OUTPUT:
 
 ![image](https://github.com/Gokulnaath03/vlsi-exp-5/assets/167178811/d31de15f-0123-4535-b2cc-7b5ed99e38fc)
 
-#RESULT:
+## RESULT:
 
 The simulate and synthesis of finite state machine using VIVADO is successfully
 verified.
